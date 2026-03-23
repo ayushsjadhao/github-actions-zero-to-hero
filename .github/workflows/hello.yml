@@ -1,14 +1,11 @@
-# This is workflow name
 name: Hello
 
 on:
   push:
   branches: [main]
 
-# these are jobs inside the workflow
 jobs:
 
-# this is name of job
 greet:
   runs-on: ubuntu-latest
   steps:
